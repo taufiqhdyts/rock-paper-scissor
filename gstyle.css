@@ -1,0 +1,277 @@
+h1 {
+    font-family: 'Bebas Neue';
+    font-weight: bold;
+    font-size: 80px;
+}
+
+h2 {
+    font-family: 'Bebas Neue';
+    font-weight: bold;
+    font-size: 36px;
+}
+
+h3 {
+    font-family: 'Bebas Neue';
+    font-weight: bold;
+    font-size: 24px;
+}
+
+body {
+    font-family: 'Open Sans';
+    font-size: 18px;
+}
+
+.subtext {
+    font-family: 'Open Sans';
+    font-size: 14px;
+}
+
+.btn {
+    font-family: 'Open Sans';
+    font-weight: bold;
+    font-size: 16px;
+
+}
+
+nav {
+    font-family: 'Open Sans';
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+#mainscreen {
+    background-color: #9C835F;
+    padding-bottom: 2%;
+    text-align: center;
+}
+
+.mainframe {
+    margin-bottom: 2%;
+}
+
+#logo {
+    height: 75px;
+    width: 75px;
+}
+
+#backbutton {
+    position: relative;
+    left: 20%;
+    font-weight: 700 !important;
+    font-size: 72px !important;
+    letter-spacing: 0.1em !important;
+    text-transform: uppercase !important;
+    color: #724C21 !important;
+}
+
+.headtext {
+    text-align: left;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 49px;
+    color: #F9B23D;
+}
+
+.name {
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+
+.rock{
+    height: 92px;
+    width: 128px;
+}
+
+.paper{
+    height: 150px;
+    width: 115px;
+}
+
+.scissor{
+    height: 160px;
+    width: 134px;
+}
+
+.midtext {
+    font-weight: 700;
+    font-size: 144px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #BD0000;
+}
+
+
+#midvs {
+    display: flex;
+    text-transform: uppercase;
+}
+
+#midcomwin {
+    display: none;
+
+    font-weight: 700;
+    font-size: 38px !important;
+    line-height: 52px !important;
+    text-align: center !important;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+    height: 167px;
+    width: 271px;
+    
+    position: relative;
+    left: -20%;
+    background: #4C9654;
+    border-radius: 10px;
+
+    transform: rotate(-30.98deg);
+}
+
+#midplayerwin {
+    display: none;
+
+    font-weight: 700;
+    font-size: 38px !important;
+    line-height: 52px !important;
+    text-align: center !important;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+    height: 167px;
+    width: 271px;
+
+    position: relative;
+    left: -20%;
+    background: #4C9654;
+    border-radius: 10px;
+
+    transform: rotate(-30.98deg);
+}
+
+#middraw {
+    display: none;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 52px !important;
+    text-align: center !important;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+    height: 167px;
+    width: 271px;
+
+    position: relative;
+    background: #035B0C;
+    left: -20%;
+    border-radius: 10px;
+
+    transform: rotate(-30.98deg);
+}
+
+.refreshpic {
+    height: 71px;
+    width: 77px;
+}
+
+.contentrow {
+    height: 200px;
+}
+
+.handscol {
+    height: 100%;
+}
+
+.midrow {
+    position: relative;
+    top: 8%;
+}
+
+.scissorrow {
+    position: relative;
+    top: 4%;
+}
+
+.btn-light {
+    --bs-btn-bg: none !important;
+    --bs-btn-border-color: none !important;
+}
+
+.disabled {
+    background: none !important;
+    opacity: 100% !important;
+}
+
+@media screen and (max-width: 1402px) {
+    #middraw {
+        height: 90px;
+        width: 200px;
+    }
+    #midplayerwin {
+        height: 90px;
+        width: 200px;
+        left: -20%;
+    }
+    #midcomwin {
+        height: 90px;
+        width: 200px;
+        left: -20%;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    #midvs {
+        font-size: 40%;
+    }
+    #middraw {
+        height: 90px;
+        width: 100px;
+    }
+    #midcomwin{
+        height: 90px;
+        width: 100px;
+    }
+    #midplayerwin {
+        height: 90px;
+        width: 100px;
+    }
+}
+
+@media screen and (max-width: 940px) {
+    #logo {
+        width: 75%;
+        height: 75%;
+    }
+}
+
+/*
+.container{
+    border: 1px solid red;
+}
+
+.col{
+    border: 1px solid red;
+}
+
+.col-1{
+    border: 1px solid red;
+}
+
+.col-2{
+    border: 1px solid red;
+}
+
+.col-3{
+    border: 1px solid red;
+}
+
+.col-6{
+    border: 1px solid red;
+}
+*/
